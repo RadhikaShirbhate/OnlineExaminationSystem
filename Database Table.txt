@@ -1,0 +1,7 @@
+Database Table
+
+Student Table :-
+create table stud (user_id number(10) unique not null, user_name varchar2(20) not null, name varchar2(20) not null, mail_id varchar2(20) not null, password varchar2(20) not null);
+
+Questions :-
+create table Questions ( Ques_id Number(10) primary key, questions varchar2(300) not null, option_a varchar2(250) not null, option_b varchar2(250) not null, option_c varchar2(250), option_d varchar2(250), correct_ans char(1) not null);
